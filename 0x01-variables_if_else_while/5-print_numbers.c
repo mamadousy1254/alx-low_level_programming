@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	int i = 0;
+	int n = 0;
 
-	while (i < 10)
+	while (n < 10)
 	{
-		printf("%d", i);
-		i++;
+		printf("%i", n);
+		n++;
 	}
+	putchar('\n');
 	return (0);
 }
